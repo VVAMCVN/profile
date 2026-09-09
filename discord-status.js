@@ -6,7 +6,7 @@ const DISCORD_USER_ID = '998736100120080394';
 async function fetchDiscordStatus() {
     let lastError = null;
     const cb = Date.now();
-    const directUrl = `https://api.notjdevelopment.baby/v1/users/1297228468697829436?_cb=1}`;
+    const directUrl = `https://api.notjdevelopment.baby/v1/users/uid?_cb=1}`;
     const targets = [
         { name: 'Direct API', url: directUrl },
         { name: 'CodeTabs Proxy', url: `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(directUrl)}` },
